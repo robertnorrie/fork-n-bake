@@ -5,3 +5,4 @@
        - image: circleci/php:7.4.0
      steps:
        - checkout
+       - grep 'ingredients'
